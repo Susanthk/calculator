@@ -1,16 +1,24 @@
-.output {
-  height: 50px;
-  width: 350px;
+.calculator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.display {
+  height: 15%;
+  width: 99%;
   border: solid;
+  margin: 3% 0;
 }
 
 .input {
-  display: inline-block;
-  width: 400px;
-  height: 500px;
-  grid-auto-columns: 4, 1fr;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
 }
 
 .input_val {
-  width: 20%;
+  margin: 3% 5%;
 }
