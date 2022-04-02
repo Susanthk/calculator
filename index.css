@@ -7,10 +7,21 @@
 }
 
 .display {
-  height: 15%;
   width: 99%;
-  border: solid;
+  height: 20%;
+  border: none;
   margin: 3% 0;
+}
+#main {
+  height: 75%;
+  margin: 0;
+  border: solid;
+}
+
+#secondary {
+  height: 25%;
+  margin: 0;
+  border: solid;
 }
 
 .input {

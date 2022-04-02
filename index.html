@@ -5,35 +5,92 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+        <script
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+            type="text/javascript"></script>
+
         <title>Calulator</title>
     </head>
     <body>
 
         <div class="calculator">
             <div class="display">
-                <h5></h5>
-                <h3></h3>
+                <h5 id="secondary"></h5>
+                <h3 id="main"></h3>
             </div>
             <div class="input">
-                <button id="AC" class="input_val row1"> AC </button>
-                <button id="negate" class="input_val row1"> +/- </button>
-                <button id="percentage" class="input_val row 1"> % </button>
-                <button id="divide" class="input_val row1"> / </button>
-                <button id="seven" class="input_val row2"> 7 </button>
-                <button id="eight" class="input_val row2"> 8 </button>
-                <button id="nine" class="input_val row2"> 9 </button>
-                <button id="multiply" class="input_val row2"> x </button>
-                <button id="four" class="input_val row3"> 4 </button>
-                <button id="five" class="input_val row3"> 5 </button>
-                <button id="six" class="input_val row3"> 6 </button>
-                <button id="minus" class="input_val row3"> - </button>
-                <button id="one" class="input_val row4"> 1 </button>
-                <button id="two" class="input_val row4"> 2 </button>
-                <button id="three" class="input_val row4"> 3 </button>
-                <button id="addition" class="input_val row4"> + </button>
-                <button id="zero" class="input_val row5"> 0 </button>
-                <button id="decimal" class="input_val row5"> . </button>
-                <button id="equal" class="input_val row5"> = </button>
+                <button value="AC" onclick="input(this.value)" id="AC"
+                    class="input_val
+                    row1"> AC
+                </button>
+                <button value="negate" onclick="input(this.value)" id="negate"
+                    class="input_val row1">
+                    +/- </button>
+                <button value="%" onclick="input(this.value)" id="percentage"
+                    class="input_val row
+                    1"> % </button>
+                <button value="/" onclick="input(this.value)" id="divide"
+                    class="input_val
+                    row1"> /
+                </button>
+                <button value="7" onclick="input(this.value)" id="seven"
+                    class="input_val
+                    row2"> 7
+                </button>
+                <button value="8" onclick="input(this.value)" id="eight"
+                    class="input_val
+                    row2"> 8
+                </button>
+                <button value="9" onclick="input(this.value)" id="nine"
+                    class="input_val
+                    row2"> 9
+                </button>
+                <button value="*" onclick="input(this.value)" id="multiply"
+                    class="input_val row2">
+                    x </button>
+                <button value="4" onclick="input(this.value)" id="four"
+                    class="input_val
+                    row3"> 4
+                </button>
+                <button value="5" onclick="input(this.value)" id="five"
+                    class="input_val
+                    row3"> 5
+                </button>
+                <button value="6" onclick="input(this.value)" id="six"
+                    class="input_val
+                    row3"> 6
+                </button>
+                <button value="-" onclick="input(this.value)" id="minus"
+                    class="input_val
+                    row3"> -
+                </button>
+                <button value="1" onclick="input(this.value)" id="one"
+                    class="input_val
+                    row4"> 1
+                </button>
+                <button value="2" onclick="input(this.value)" id="two"
+                    class="input_val
+                    row4"> 2
+                </button>
+                <button value="3" onclick="input(this.value)" id="three"
+                    class="input_val
+                    row4"> 3
+                </button>
+                <button value="+" onclick="input(this.value)" id="addition"
+                    class="input_val row4">
+                    + </button>
+                <button value="0" onclick="input(this.value)" id="zero"
+                    class="input_val
+                    row5"> 0
+                </button>
+                <button value="." onclick="input(this.value)" id="decimal"
+                    class="input_val row5"> .
+                </button>
+                <button value="="onclick="input(this.value)" id="equal"
+                    class="input_val
+                    row5"> =
+                </button>
             </div>
         </div>
 
