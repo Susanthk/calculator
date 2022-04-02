@@ -1,0 +1,16 @@
+.output {
+  height: 50px;
+  width: 350px;
+  border: solid;
+}
+
+.input {
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  grid-auto-columns: 4, 1fr;
+}
+
+.input_val {
+  width: 20%;
+}
